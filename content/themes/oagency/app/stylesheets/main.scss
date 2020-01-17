@@ -1,0 +1,27 @@
+@import "bootstrap";
+
+@import
+    'abstracts/variables';
+
+@import
+    'base/base';
+
+@import
+    'bootstrap/config.scss';
+
+@import
+    'layouts/header',
+    'layouts/slider',
+    'layouts/posts',
+    'layouts/banner',
+    'layouts/footer';
+
+@import
+    'components/navigation',
+    'components/carousel',
+    'components/post',
+    'components/display-post',
+    'components/contact';
+
+@import
+    'shame';

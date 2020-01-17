@@ -1,0 +1,24 @@
+.carousel {
+  
+    width: 100%;
+
+    h3 {
+      font-size: $font-size-title;
+      letter-spacing: -1px;
+      font-weight: 900;
+      text-shadow: 2px 2px 8px $color-default;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+
+    a {
+      color: $color-bg;
+      font-size: $font-size-small;
+    }
+  }
+
+ .slide-content {
+    height: 25em;
+ }

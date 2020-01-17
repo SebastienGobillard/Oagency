@@ -1,0 +1,38 @@
+.display-post {
+
+  padding: 4em 2.5em 3.5em 2.5em;
+
+  h1 {
+    font-family: $font-family-baba;
+    color: $color-dark;
+  }
+  h2 {
+    font-family: $font-family-baba;
+    color: $color-dark;
+  }
+
+  i{
+    font-size: 10px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 2px;
+  }
+
+  &__content{
+    background-color: $color-bg;
+    padding: 3em;
+    display: inline-flex;
+  }
+
+  &__thumbnail{
+    width: 30%;
+    height: 20em;
+    display: inline-block;
+    margin-right: 3.5em;
+  }
+  
+  &__info{
+    width: 60%;
+    display: inline-block;
+  }
+}

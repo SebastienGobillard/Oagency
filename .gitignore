@@ -1,0 +1,15 @@
+wp-config.php
+vendor/
+wp/
+
+/content/*
+
+!/content/themes
+/content/themes/*
+!/content/themes/osailing
+!/content/themes/oblog
+!/content/themes/oprofile
+!/content/themes/oagency
+
+!/content/plugins/
+/content/plugins/*

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Titillium+Web');
+
+html {
+    box-sizing: border-box;
+    font-family: $font-family-baba;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a, a:link, a:visited {
+    color: $color-agency;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,35 @@
+.contact {
+
+    background-color: $color-border;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 7em 3em 7em;
+
+    h3{
+        font-size: $font-size-large;
+        margin-bottom: 15px;
+        font-family: $font-family-baba;
+    }
+
+    i{
+        color: $color-dark;
+        font-size: 8px;
+        margin: 0 10px 0 10px;
+        position: relative;
+        bottom: 3px;
+    }
+}
+
+.contact-link{
+
+    background-color: $color-dark;
+    padding-left: 3em;
+
+    button{
+        margin: 1.5em 0em 1.5em 0em; 
+        padding: 0.7em 1.2em 0.7em 1.2em;
+        font-size: $font-size-small;
+        color: $color-dark;
+        border-radius: 0px;
+    }
+}

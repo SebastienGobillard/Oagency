@@ -1,0 +1,29 @@
+{
+    "name": "sebastiengobillard/wp-projects",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.0",
+        "wpackagist-plugin/advanced-custom-fields": "*"
+    },
+    "require-dev": {
+        "wpackagist-plugin/what-the-file": "*",
+        "wpackagist-plugin/simply-show-hooks": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "authors": [
+        {
+            "name": "SebastienGobillard"
+        }
+    ]
+}

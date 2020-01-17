@@ -1,0 +1,28 @@
+.navigation {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 60px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: calc(1.3em/2);
+
+    &__title {
+        font-size: $font-size-title;
+        font-weight: 900;
+        font-family: $font-family-baba;
+    }
+
+    &__menu {
+
+        font-size: $font-size-small;
+        font-weight: lighter;
+        
+        li {
+            display: inline-flex;
+            margin-left: 1.5em;
+        }
+    }
+}
