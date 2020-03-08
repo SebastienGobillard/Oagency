@@ -1,3 +1,3 @@
-# oAgency
+# Oagency
 
-Thème Wordpress Full Custom
+Projet Wordpress - Création de thème
